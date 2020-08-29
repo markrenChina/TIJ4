@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.TIJ4.Ex3.util.speed&apos; to &apos;Dogs&apos;&#x0D;&#x0A;- Original project: &apos;Exercises3-5&apos;&#x0D;&#x0A;- Original element: &apos;com.TIJ4.Ex3.util.speed&apos;&#x0D;&#x0A;- Renamed element: &apos;com.TIJ4.Ex3.util.Dogs&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;speed&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.TIJ4.Ex3.util{speed.java[speed" matchStrategy="1" name="Dogs" qualified="false" references="true" similarDeclarations="false" stamp="1551927159309" textual="false" version="1.0"/>
+</session>

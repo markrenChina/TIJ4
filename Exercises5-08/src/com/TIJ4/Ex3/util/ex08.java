@@ -1,0 +1,18 @@
+package com.TIJ4.Ex3.util;
+import static com.TIJ4.Ex3.util.Print.*;
+public class ex08 {	
+		public static void main(String[] args) {
+			test s=new test();
+			s.test1();
+		}
+}
+class test{
+void test1() {
+	test2();
+	this.test2();
+}
+void test2() {
+	print("test2±»Ö´ÐÐ");
+}
+
+}

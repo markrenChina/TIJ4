@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Print.java&apos; to &apos;Exercises6-04/src/com.tij4.ex6.util&apos;&#x0D;&#x0A;- Original project: &apos;Exercises5-22&apos;&#x0D;&#x0A;- Destination element: &apos;Exercises6-04/src/com.tij4.ex6.util&apos;&#x0D;&#x0A;- Original element: &apos;com.TIJ4.Ex3.util.Print.java&apos;" description="Copy compilation unit" destination="=Exercises6-04/src&lt;com.tij4.ex6.util" element1="/src&lt;com.TIJ4.Ex3.util{Print.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1552216661698" units="1" version="1.0"/>
+</session>

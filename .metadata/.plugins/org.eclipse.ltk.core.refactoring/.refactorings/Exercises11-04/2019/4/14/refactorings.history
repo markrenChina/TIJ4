@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Exercises11-04&apos;&#x0D;&#x0A;- Original project: &apos;Exercises11-04&apos;&#x0D;&#x0A;- Original element: &apos;com.tij4.ex10.main.Sequence.java&apos;" description="Delete element" element1="/src&lt;com.tij4.ex10.main{Sequence.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1554470892843" subPackages="false" version="1.0"/>
+</session>

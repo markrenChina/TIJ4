@@ -1,7 +1,7 @@
-a
-b
-c
-g
-e
-f
-d
+abc
+ber
+car
+good a boy
+empty
+feel
+door open

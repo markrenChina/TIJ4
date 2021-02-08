@@ -22,13 +22,14 @@ public class ex01 {
             @Override
             public boolean accept(File dir, String name) {
                 return !(Collections.disjoint(
-                        Arrays.asList("ex01"),
+                        Collections.singletonList("ex01"),
                         new TextFile(name, "\\W+")
                 )
                 );
             }
         });
 
+        assert list != null;
         Arrays.sort(list,String.CASE_INSENSITIVE_ORDER);
         for(String dirItem : list){
             System.out.println(dirItem);

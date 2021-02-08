@@ -7,9 +7,10 @@ import java.util.regex.Pattern;
 
 public class ex02 {
     static class SortedDirList2 {
-        private String[] dirList;
+        private final String[] dirList;
         public SortedDirList2(File dir) {
             dirList = dir.list();
+            assert dirList != null;
             Arrays.sort(dirList, String.CASE_INSENSITIVE_ORDER);
         }
         public String[] list() { return dirList; }

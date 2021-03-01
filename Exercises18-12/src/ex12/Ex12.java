@@ -22,7 +22,7 @@ public class Ex12 {
         return list;
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
         //File file = new File(".");
         //System.out.println(Arrays.toString(file.list()));
         //idea设置了out目录，18-1/out
@@ -33,7 +33,7 @@ public class Ex12 {
         PrintWriter out = new PrintWriter(file);
         Stream.iterate(list.size() - 1, n -> n - 1)
                 .limit(list.size()).map(e -> (list.size() - e)+"; " + list.get(e))
-                .forEach(out::println);
+                .forEach(System.out::println);
         out.close();
     }
 }

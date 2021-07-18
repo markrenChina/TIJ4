@@ -4,6 +4,13 @@ public class ExceptionThread2 implements Runnable{
         Thread t = Thread.currentThread();
         System.out.println("run() by " + t);
         System.out.println("eh = "+ t.getUncaughtExceptionHandler());
-        //throw new RuntimeException();
+
+        try {
+            CaptureUncaughtException.testThreadPoolExecutor++;
+            throw new RuntimeException();
+        } catch (IllegalArgumentException e) {
+            e.printStackTrace();
+        }
+
     }
 }

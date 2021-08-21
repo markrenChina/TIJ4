@@ -9,11 +9,12 @@ import java.util.concurrent.Executors;
 public class Ex24 {
 
     private static ExecutorService exec = Executors.newCachedThreadPool();
-    private static Producer producer = new Producer();
-    private static Consumer consumer = new Consumer();
+    private static SourceBuffer sb = new SourceBuffer();
+    static Producer producer = new Producer(sb);
+    static Consumer consumer = new Consumer(sb);
 
     public static void main(String[] args) {
-        exec.execute(producer);
         exec.execute(consumer);
+        exec.execute(producer);
     }
 }

@@ -1,9 +1,22 @@
 package ex24;
 
-public class SourceBuffer {
-    private Source[] list = new  Source[10];
+import java.util.LinkedList;
 
-    private synchronized void offer(){
-        if (list)
+public class SourceBuffer {
+    LinkedList<Source> list = new LinkedList<Source>();
+    int buffSize = 2;
+
+    synchronized void offer(Source source){
+        if (list.size() < buffSize) {
+            list.addLast(source);
+        }
+    }
+
+    synchronized Source pop(){
+        if (!list.isEmpty()) {
+            return list.pop();
+        }else {
+            return null;
+        }
     }
 }

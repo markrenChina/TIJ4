@@ -26,6 +26,7 @@ public class Chef implements Runnable{
                 if (++count == 10){
                     System.out.println("Out of food, closing");
                     restaurant.exec.shutdownNow();
+                    //return; // ex25 if return. Order up! and  Chef interrupted not print
                 }
                 System.out.println("Order up! ");
                 //waitPerson锁chef，保证不会同时notifyAll

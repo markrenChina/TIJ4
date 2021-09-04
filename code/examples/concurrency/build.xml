@@ -297,9 +297,9 @@
      fork="true"/>
   </target>
 
-  <target name="GreenhouseScheduler">
+  <target name="greenHouse.GreenhouseScheduler">
     <java
-     classname="GreenhouseScheduler"
+     classname="greenHouse.GreenhouseScheduler"
      classpath="${java.class.path};${basedir};${basedir}/.."
      dir="../concurrency/"
      failonerror="true"
@@ -715,7 +715,7 @@
     <antcall target="FastSimulation"/>
     <antcall target="FixedDiningPhilosophers"/>
     <antcall target="FixedThreadPool"/>
-    <antcall target="GreenhouseScheduler"/>
+    <antcall target="greenHouse.GreenhouseScheduler"/>
     <antcall target="HorseRace"/>
     <antcall target="Interrupting"/>
     <antcall target="Interrupting2"/>

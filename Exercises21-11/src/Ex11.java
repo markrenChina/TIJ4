@@ -42,8 +42,9 @@ class NumRangeChecker11 implements Runnable { // task(s) that depend on & share 
     public static void test(NumRangeGenerator gen, int count) {
         System.out.println("Press Ctrl-C to exit");
         ExecutorService exec = Executors.newCachedThreadPool();
-        for (int i = 0; i < count; i++)
+        for (int i = 0; i < count; i++) {
             exec.execute(new NumRangeChecker11(gen, i));
+        }
         exec.shutdown();
     }
 
@@ -63,7 +64,9 @@ class NumRangeGenerator11 extends NumRangeGenerator {
         min = rand.nextInt(100);
         max = rand.nextInt(100);
         Thread.yield();
-        if (min > max) max = min;
+        if (min > max) {
+            max = min;
+        }
         int[] ia = {min, max};
         return ia;
     }

@@ -2430,7 +2430,7 @@
   <commands xmi:id="_8GHbrz-7EemFIOdv-WeVWQ" elementId="org.eclipse.jdt.ui.edit.text.java.select.previous" commandName="Select Previous Element" description="Expand selection to include previous sibling" category="_8GDw8D-7EemFIOdv-WeVWQ"/>
   <commands xmi:id="_8GHbsD-7EemFIOdv-WeVWQ" elementId="org.eclipse.pde.ui.externalizeStrings" commandName="Externalize Strings in Plug-ins" description="Extract translatable strings from plug-in files" category="_8GDxCz-7EemFIOdv-WeVWQ"/>
   <commands xmi:id="_8GHbsT-7EemFIOdv-WeVWQ" elementId="org.eclipse.ui.file.refresh" commandName="Refresh" description="Refresh the selected items" category="_8GDw-j-7EemFIOdv-WeVWQ"/>
-  <commands xmi:id="_8GHbsj-7EemFIOdv-WeVWQ" elementId="org.eclipse.datatools.connectivity.commands.showcategory" commandName="Show Category" description="Show Category" category="_8GDxCz-7EemFIOdv-WeVWQ"/>
+  <commands xmi:id="_8GHbsj-7EemFIOdv-WeVWQ" elementId="org.eclipse.datatools.connectivity.commands.showcategory" commandName="Show enumerated.Category" description="Show enumerated.Category" category="_8GDxCz-7EemFIOdv-WeVWQ"/>
   <commands xmi:id="_8GHbsz-7EemFIOdv-WeVWQ" elementId="org.eclipse.egit.ui.RepositoriesViewChangeCredentials" commandName="Change Credentials" category="_8GDxJD-7EemFIOdv-WeVWQ"/>
   <commands xmi:id="_8GHbtD-7EemFIOdv-WeVWQ" elementId="org.eclipse.jdt.ui.correction.extractMethodInplace.assist" commandName="Quick Assist - Extract method" description="Invokes quick assist and selects 'Extract to method'" category="_8GDxKT-7EemFIOdv-WeVWQ"/>
   <commands xmi:id="_8GHbtT-7EemFIOdv-WeVWQ" elementId="org.eclipse.cdt.ui.edit.text.c.goto.matching.bracket" commandName="Go to Matching Bracket" description="Moves the cursor to the matching bracket" category="_8GDxET-7EemFIOdv-WeVWQ"/>
@@ -2596,7 +2596,7 @@
   </commands>
   <commands xmi:id="_8GIp6j-7EemFIOdv-WeVWQ" elementId="sed.tabletree.collapseAll" commandName="Collapse All" category="_8GDxCz-7EemFIOdv-WeVWQ"/>
   <commands xmi:id="_8GIp6z-7EemFIOdv-WeVWQ" elementId="org.eclipse.egit.ui.RepositoriesViewRemoveRemote" commandName="Delete Remote" category="_8GDxJD-7EemFIOdv-WeVWQ"/>
-  <commands xmi:id="_8GIp7D-7EemFIOdv-WeVWQ" elementId="org.eclipse.ui.dialogs.openInputDialog" commandName="Open Input Dialog" description="Open an Input Dialog" category="_8GDxAT-7EemFIOdv-WeVWQ">
+  <commands xmi:id="_8GIp7D-7EemFIOdv-WeVWQ" elementId="org.eclipse.ui.dialogs.openInputDialog" commandName="Open enumerated.Input Dialog" description="Open an enumerated.Input Dialog" category="_8GDxAT-7EemFIOdv-WeVWQ">
     <parameters xmi:id="_8GIp7T-7EemFIOdv-WeVWQ" elementId="title" name="Title"/>
     <parameters xmi:id="_8GIp7j-7EemFIOdv-WeVWQ" elementId="message" name="Message"/>
     <parameters xmi:id="_8GIp7z-7EemFIOdv-WeVWQ" elementId="initialValue" name="Initial Value"/>
@@ -3312,7 +3312,7 @@
   <commands xmi:id="_8a-4GD-7EemFIOdv-WeVWQ" elementId="AUTOGEN:::org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreContributionID/org.eclipse.emf.mapping.action.CreateOneSidedMappingActionID" commandName="Create One-sided Mapping" description="Create a new mapping for the selected object." category="_8GDxCz-7EemFIOdv-WeVWQ"/>
   <commands xmi:id="_8a-4GT-7EemFIOdv-WeVWQ" elementId="AUTOGEN:::org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreContributionID/org.eclipse.emf.mapping.action.CreateMappingActionID" commandName="Create Mapping" description="Create a new mapping between the selected objects." category="_8GDxCz-7EemFIOdv-WeVWQ"/>
   <commands xmi:id="_8a-4Gj-7EemFIOdv-WeVWQ" elementId="AUTOGEN:::org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreContributionID/org.eclipse.emf.mapping.ecore2ecore.action.AddOuputRootActionID" commandName="Add Output Root..." description="Add new output root." category="_8GDxCz-7EemFIOdv-WeVWQ"/>
-  <commands xmi:id="_8a_fID-7EemFIOdv-WeVWQ" elementId="AUTOGEN:::org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreContributionID/org.eclipse.emf.mapping.ecore2ecore.action.AddInputRootActionID" commandName="Add Input Root..." description="Add new input root." category="_8GDxCz-7EemFIOdv-WeVWQ"/>
+  <commands xmi:id="_8a_fID-7EemFIOdv-WeVWQ" elementId="AUTOGEN:::org.eclipse.emf.mapping.ecore2ecore.presentation.Ecore2EcoreContributionID/org.eclipse.emf.mapping.ecore2ecore.action.AddInputRootActionID" commandName="Add enumerated.Input Root..." description="Add new input root." category="_8GDxCz-7EemFIOdv-WeVWQ"/>
   <commands xmi:id="_8a_fIT-7EemFIOdv-WeVWQ" elementId="AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction" commandName="Toggle Breakpoint" category="_8GDxCz-7EemFIOdv-WeVWQ"/>
   <commands xmi:id="_8a_fIj-7EemFIOdv-WeVWQ" elementId="AUTOGEN:::org.eclipse.jdt.debug.ClassFileEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction" commandName="Toggle Breakpoint" category="_8GDxCz-7EemFIOdv-WeVWQ"/>
   <commands xmi:id="_8a_fIz-7EemFIOdv-WeVWQ" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.JavaSnippetToolbarActions/org.eclipse.jdt.debug.ui.SnippetExecute" commandName="Execute" description="Execute the Selected Text" category="_8GDxCz-7EemFIOdv-WeVWQ"/>
@@ -3569,7 +3569,7 @@
   <categories xmi:id="_8GDxKT-7EemFIOdv-WeVWQ" elementId="org.eclipse.jdt.ui.category.source" name="Source" description="Java Source Actions"/>
   <categories xmi:id="_8GDxKj-7EemFIOdv-WeVWQ" elementId="org.eclipse.pde.runtime.spy.commands.category" name="Spy"/>
   <categories xmi:id="_8GDxKz-7EemFIOdv-WeVWQ" elementId="org.eclipse.cdt.debug.ui.category.reverseDebugging" name="Reverse Debugging Commands" description="Set of commands for Reverse Debugging"/>
-  <categories xmi:id="_8GDxLD-7EemFIOdv-WeVWQ" elementId="org.eclipse.cdt.debug.ui.category.tracing" name="Tracing Commands" description="Category for Tracing Commands"/>
+  <categories xmi:id="_8GDxLD-7EemFIOdv-WeVWQ" elementId="org.eclipse.cdt.debug.ui.category.tracing" name="Tracing Commands" description="enumerated.Category for Tracing Commands"/>
   <categories xmi:id="_LSHzMUADEem_ZeeemNtrCA" elementId="org.eclipse.cdt.debug.ui.category.registerGrouping" name="Register Grouping commands" description="Set of commands for Register Grouping"/>
   <categories xmi:id="_LSHzMkADEem_ZeeemNtrCA" elementId="org.eclipse.pde.genericeditor.extension.category.source" name="Target Definition Source" description="Target Definition Source Page actions"/>
   <categories xmi:id="_LSHzM0ADEem_ZeeemNtrCA" elementId="org.eclipse.cdt.managedbuilder.ui.category.build" name="C/C++ Build" description="C/C++ Build Actions"/>

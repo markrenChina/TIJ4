@@ -254,9 +254,9 @@
      fork="true"/>
   </target>
 
-  <target name="VendingMachine">
+  <target name="enumerated.VendingMachine">
     <java
-     classname="enumerated.VendingMachine"
+     classname="enumerated.enumerated.VendingMachine"
      classpath="${java.class.path};${basedir};${basedir}/.."
      dir="../enumerated/"
      failonerror="true"
@@ -336,7 +336,7 @@
     <antcall target="SpaceShip"/>
     <antcall target="TrafficLight"/>
     <antcall target="UpcastEnum"/>
-    <antcall target="VendingMachine"/>
+    <antcall target="enumerated.VendingMachine"/>
     <antcall target="EnumImplementation"/>
     <antcall target="Meal"/>
     <antcall target="Meal2"/>

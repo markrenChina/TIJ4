@@ -22,9 +22,11 @@ public class CloseResource {
         exec.shutdownNow();
         TimeUnit.SECONDS.sleep(1);
         System.out.println("Closing " + socketInput.getClass().getName());
+        //关闭底层资源
         socketInput.close();
         TimeUnit.SECONDS.sleep(1);
         System.out.println("Closing " + System.in.getClass().getName());
+        //关闭底层资源
         System.in.close();
     }
 }

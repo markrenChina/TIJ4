@@ -1,5 +1,5 @@
 package enumerated;
 
 public enum Outcome {
-    WIN,LOSE,DRAM
+    WIN,LOSE, DRAW
 }

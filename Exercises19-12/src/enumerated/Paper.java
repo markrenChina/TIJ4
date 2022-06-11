@@ -8,7 +8,7 @@ public class Paper implements Item{
 
     @Override
     public Outcome eval(Paper p) {
-        return Outcome.DRAM;
+        return Outcome.DRAW;
     }
 
     @Override

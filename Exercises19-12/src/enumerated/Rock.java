@@ -18,7 +18,7 @@ public class Rock implements Item{
 
     @Override
     public Outcome eval(Rock r) {
-        return Outcome.DRAM;
+        return Outcome.DRAW;
     }
 
     @Override

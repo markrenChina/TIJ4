@@ -13,7 +13,7 @@ public class Scissors implements Item{
 
     @Override
     public Outcome eval(Scissors s) {
-        return Outcome.DRAM;
+        return Outcome.DRAW;
     }
 
     @Override

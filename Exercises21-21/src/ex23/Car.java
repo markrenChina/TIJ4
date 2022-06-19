@@ -1,4 +1,4 @@
-package ex23;
+package ex23and24;
 
 /**
  * waxOn 表示涂蜡-抛光的处理状态

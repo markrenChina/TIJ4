@@ -1,4 +1,4 @@
-package ex23;
+package ex23and24;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

@@ -228,9 +228,9 @@
      fork="true"/>
   </target>
 
-  <target name="StormyInning">
+  <target name="exceptions.StormyInning">
     <java
-     classname="StormyInning"
+     classname="exceptions.StormyInning"
      classpath="${java.class.path};${basedir};${basedir}/.."
      dir="../exceptions/"
      failonerror="true"
@@ -289,7 +289,7 @@
     <antcall target="OnOffSwitch"/>
     <antcall target="Rethrowing"/>
     <antcall target="RethrowNew"/>
-    <antcall target="StormyInning"/>
+    <antcall target="exceptions.StormyInning"/>
     <antcall target="TurnOffChecking"/>
     <antcall target="WhoCalled"/>
     <antcall target="WithFinally"/>

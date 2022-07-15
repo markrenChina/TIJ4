@@ -462,9 +462,9 @@
      fork="true"/>
   </target>
 
-  <target name="LinkedStack">
+  <target name="generics.LinkedStack">
     <java
-     classname="LinkedStack"
+     classname="generics.LinkedStack"
      classpath="${java.class.path};${basedir};${basedir}/.."
      dir="../generics/"
      failonerror="true"
@@ -745,7 +745,7 @@
     <antcall target="IterableFibonacci"/>
     <antcall target="LatentReflection"/>
     <antcall target="LimitsOfInference"/>
-    <antcall target="LinkedStack"/>
+    <antcall target="generics.LinkedStack"/>
     <antcall target="ListMaker"/>
     <antcall target="ListOfInt"/>
     <antcall target="LostInformation"/>

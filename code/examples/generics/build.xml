@@ -633,9 +633,9 @@
      fork="true"/>
   </target>
 
-  <target name="UnboundedWildcards1">
+  <target name="generics.UnboundedWildcards1">
     <java
-     classname="UnboundedWildcards1"
+     classname="generics.UnboundedWildcards1"
      classpath="${java.class.path};${basedir};${basedir}/.."
      dir="../generics/"
      failonerror="true"
@@ -764,7 +764,7 @@
     <antcall target="TupleList"/>
     <antcall target="TupleTest"/>
     <antcall target="TupleTest2"/>
-    <antcall target="UnboundedWildcards1"/>
+    <antcall target="generics.UnboundedWildcards1"/>
     <antcall target="UnboundedWildcards2"/>
     <antcall target="Unconstrained"/>
     <antcall target="WatercolorSets"/>

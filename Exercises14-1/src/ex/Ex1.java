@@ -1,4 +1,4 @@
-package ex1;
+package ex;
 
 interface HasBatteries {}
 interface Waterproof {}
@@ -28,7 +28,7 @@ public class Ex1 {
     public static void main(String[] args) {
         Class c = null;
         try {
-            c = Class.forName("ex1.FancyToy");
+            c = Class.forName("ex.FancyToy");
         }catch (ClassNotFoundException e){
             System.out.println("Can't find FancyToy");
             System.exit(1);

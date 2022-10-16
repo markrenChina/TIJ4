@@ -1,4 +1,4 @@
-package ex1;
+package ex;
 
 public class Ex1 extends Exception{
 

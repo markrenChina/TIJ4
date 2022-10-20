@@ -4,8 +4,13 @@ import java.util.Arrays;
 
 class BerylliumSphere {
     private static long counter;
-    private final long id = counter++;
-    public String toString() { return "Sphere " + id; }
+    private final long id;
+
+    public BerylliumSphere() {
+        id = counter++;
+    }
+
+    public String toString() { return "Sphere " + this.id; }
 }
 
 class A { public String toString() { return "A Object"; } }

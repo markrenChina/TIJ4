@@ -15,5 +15,7 @@ public class EnumSets {
         System.out.println(points);
         points = EnumSet.complementOf(points);
         System.out.println(points);
+        points = EnumSet.allOf(AlarmPoints.class);
+        System.out.println(points);
     }
 }
